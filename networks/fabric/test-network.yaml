@@ -9,11 +9,12 @@ channels:
   - channelName: mychannel
     # the chaincodeIDs of all the fabric chaincodes in caliper-benchmarks
     contracts:
-    - id: fabcar
-    - id: fixed-asset
-    - id: marbles
-    - id: simple
-    - id: smallbank
+    - id: basic
+    #- id: fabcars
+    #- id: fixed-asset
+    #- id: marbles
+    #- id: simple
+    #- id: smallbank
 
 organizations:
   - mspid: Org1MSP
